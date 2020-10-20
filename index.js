@@ -1,5 +1,4 @@
 const SHOP = [
-  // "ciud callback function stands for any"
   { id: "x", name: "ex. salmon", checked: false },
   { id: "x", name: "ex. checked oranges", checked: true },
 ];
@@ -34,7 +33,7 @@ function renderShop() {
 }
 
 function addItem(itemName) {
-  SHOP.push({ id: " ", name: itemName, checked: false });
+  SHOP.push({ id: "", name: itemName, checked: false });
 }
 
 function itemSubmit() {
