@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,200&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: blueviolet;
+  text-align: center;
+}
+h1,
+p {
+  color: white;
+}
+
+button,
+input[type="text"] {
+  padding: 5px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#shopping-list-item {
+  width: 150px;
+  color: white;
+}
+
+.container {
+  max-width: 450px;
+  margin: 10px auto;
+  color: white;
+}
+
+.shopping-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.shopping-list > li {
+  margin-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.shopping-item {
+  display: block;
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.shopping-item__checked {
+  text-decoration: line-through;
+}
